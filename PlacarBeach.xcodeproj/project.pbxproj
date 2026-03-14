@@ -29,11 +29,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		990497122F5C5AB900C23BD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		990497132F5C5AB900C23BD2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		990497142F5C5ABD00C23BD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				990497152F5C5AC200C23BD2 /* Shared */,
+				990497162F5C5AC200C23BD2 /* Settings */,
+				990497172F5C5AC200C23BD2 /* History */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		990497152F5C5AC200C23BD2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		990497162F5C5AC200C23BD2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		990497172F5C5AC200C23BD2 /* History */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
 		991203262F0FE6C600030708 = {
 			isa = PBXGroup;
 			children = (
 				991203312F0FE6C600030708 /* PlacarBeach */,
 				991203302F0FE6C600030708 /* Products */,
+				990497122F5C5AB900C23BD2 /* Models */,
+				990497132F5C5AB900C23BD2 /* Services */,
+				990497142F5C5ABD00C23BD2 /* Views */,
 			);
 			sourceTree = "<group>";
 		};
